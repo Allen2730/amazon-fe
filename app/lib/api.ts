@@ -59,7 +59,7 @@ export type SessionState = {
 export const API_PREFIX = "/api/v1";
 export const STORAGE_KEY = "amazon-expert-session";
 export const ADMIN_STORAGE_KEY = "amazon-expert-admin-session";
-export const DEFAULT_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8080";
+export const DEFAULT_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "http://183.240.197.189:19527";
 
 export function createEmptySession(scope: SessionScope = "user"): SessionState {
   return {
